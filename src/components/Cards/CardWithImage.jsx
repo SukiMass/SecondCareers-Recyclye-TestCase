@@ -6,20 +6,22 @@ const CardWithImage = ({
   cardTitle,
   cardText,
   carTextClassName,
-  cardParaTestId
+  cardParaTestId,
+  cardButtonTestId
 }) => {
   return (
     <div className="card h-100">
       <img src={cardImage} className="card-img-top" alt="Card Image" data-testid='imgTesting' />
       <div className="card-body">
         <h5 className="card-title" data-testid='cardHeadingTestId'>{cardTitle}</h5>
-        <p className={`card-text ${carTextClassName}`} data-testid="cardParaTestId">{cardText}</p>
+        <p className={`card-text ${carTextClassName}`} data-testid={cardParaTestId}>{cardText}</p>
       </div>
       <div className="card-footer border-0">
         <Button
           className="btn btn-primary  w-100 sign-up-buttons"
           title="Sign up"
           buttonType="button"
+          testId={cardButtonTestId}
         />
       </div>
     </div>

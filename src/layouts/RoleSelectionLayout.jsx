@@ -22,6 +22,7 @@ const RoleSelectionLayout = () => {
                     HR Professionals; Finance Professionals, Sales &
                     Marketing Professionals, Tech Experts, and Board"
                     carTextClassName="role-selection-description"
+                    cardParaTestId="professionalTestId"
                   />
                 </div>
                 <div class="col">
@@ -32,6 +33,8 @@ const RoleSelectionLayout = () => {
                     well-screened experienced talent from a pool of
                     well-qualified semi-retired or retired professionals"
                     carTextClassName="role-selection-description"
+                    cardParaTestId="employerTestId"
+                    cardButtonTestId="cardSignupButton"
                   />
                 </div>
                 <div class="col">
@@ -40,6 +43,7 @@ const RoleSelectionLayout = () => {
                     cardTitle="Partner"
                     cardText=" Engaging platform for Recruiting firms, Skills Development  Firms, and Coaching Firms to partner"
                     carTextClassName="role-selection-description"
+                    cardParaTestId="partnerTestId"
                   />
                   
                 </div>
