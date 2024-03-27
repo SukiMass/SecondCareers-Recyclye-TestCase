@@ -23,6 +23,7 @@ const RoleSelectionLayout = () => {
                     Marketing Professionals, Tech Experts, and Board"
                     carTextClassName="role-selection-description"
                     cardParaTestId="professionalTestId"
+                    cardButtonTestId="cardButton"
                   />
                 </div>
                 <div class="col">
